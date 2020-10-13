@@ -10,3 +10,15 @@ C:\Users\joao\Desktop\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\obj
 C:\Users\joao\Desktop\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\obj\Debug\Loja.Instrumentos.Generic.Entity.csproj.CopyComplete
 C:\Users\joao\Desktop\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\obj\Debug\Loja.Instrumentos.Generic.Entity.dll
 C:\Users\joao\Desktop\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\obj\Debug\Loja.Instrumentos.Generic.Entity.pdb
+C:\Users\joao\Desktop\GitProjects\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\bin\Debug\Loja.Instrumentos.Generic.Entity.dll.config
+C:\Users\joao\Desktop\GitProjects\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\bin\Debug\Loja.Instrumentos.Generic.Entity.dll
+C:\Users\joao\Desktop\GitProjects\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\bin\Debug\Loja.Instrumentos.Generic.Entity.pdb
+C:\Users\joao\Desktop\GitProjects\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\bin\Debug\EntityFramework.dll
+C:\Users\joao\Desktop\GitProjects\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\joao\Desktop\GitProjects\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\bin\Debug\EntityFramework.xml
+C:\Users\joao\Desktop\GitProjects\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\joao\Desktop\GitProjects\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\obj\Debug\Loja.Instrumentos.Generic.Entity.csprojAssemblyReference.cache
+C:\Users\joao\Desktop\GitProjects\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\obj\Debug\Loja.Instrumentos.Generic.Entity.csproj.CoreCompileInputs.cache
+C:\Users\joao\Desktop\GitProjects\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\obj\Debug\Loja.Instrumentos.Generic.Entity.csproj.CopyComplete
+C:\Users\joao\Desktop\GitProjects\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\obj\Debug\Loja.Instrumentos.Generic.Entity.dll
+C:\Users\joao\Desktop\GitProjects\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\obj\Debug\Loja.Instrumentos.Generic.Entity.pdb
