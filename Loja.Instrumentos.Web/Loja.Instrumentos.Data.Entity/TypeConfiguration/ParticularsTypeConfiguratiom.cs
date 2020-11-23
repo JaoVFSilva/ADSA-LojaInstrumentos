@@ -33,7 +33,7 @@ namespace Loja.Instrumentos.Data.Entity.TypeConfiguration
                 .HasColumnName("Descricao");
 
             Property(p => p.Corda)
-                .IsRequired()
+                .IsOptional()
                 .HasColumnName("Corda");
 
         }

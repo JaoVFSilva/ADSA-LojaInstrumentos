@@ -6,8 +6,10 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using AutoMapper;
 using Loja.Instrumentos.Business;
 using Loja.Instrumentos.Data.Entity.Context;
+using Loja.Instrumentos.Web.ViewModels.Particulars;
 
 namespace Loja.Instrumentos.Web.Controllers
 { 
@@ -18,7 +20,7 @@ namespace Loja.Instrumentos.Web.Controllers
         // GET: Particulars
         public ActionResult Index()
         {
-            return View(db.Particulars.ToList());
+            return View(Mapper.Map<List<Particulars>, List<ParticularsIndexViewModel>>(db.Particulars.ToList()));
         }
 
         // GET: Particulars/Details/5
@@ -47,16 +49,17 @@ namespace Loja.Instrumentos.Web.Controllers
         // Para obter mais detalhes, confira https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Marca,Nome,Corda,Descricao")] Particulars particulars)
+        public ActionResult Create([Bind(Include = "Id,Marca,Nome,Corda,Descricao")] ParticularsViewModel ViewModel)
         {
             if (ModelState.IsValid)
             {
+                Particulars particulars = Mapper.Map<ParticularsViewModel, Particulars>(ViewModel);
                 db.Particulars.Add(particulars);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(particulars);
+            return View(ViewModel);
         }
 
         // GET: Particulars/Edit/5
@@ -71,7 +74,7 @@ namespace Loja.Instrumentos.Web.Controllers
             {
                 return HttpNotFound();
             }
-            return View(particulars);
+            return View(Mapper.Map<Particulars, ParticularsViewModel>(particulars));
         }
 
         // POST: Particulars/Edit/5
@@ -79,15 +82,16 @@ namespace Loja.Instrumentos.Web.Controllers
         // Para obter mais detalhes, confira https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Marca,Nome,Corda,Descricao")] Particulars particulars)
+        public ActionResult Edit([Bind(Include = "Id,Marca,Nome,Corda,Descricao")] ParticularsViewModel viewModel)
         {
             if (ModelState.IsValid)
             {
+                Particulars particulars = Mapper.Map<ParticularsViewModel, Particulars>(viewModel);
                 db.Entry(particulars).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(particulars);
+            return View(viewModel);
         }
 
         // GET: Particulars/Delete/5

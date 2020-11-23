@@ -8,3 +8,9 @@ C:\Users\joao\Desktop\GitProjects\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Lo
 C:\Users\joao\Desktop\GitProjects\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Business\obj\Debug\Loja.Instrumentos.Business.csproj.CoreCompileInputs.cache
 C:\Users\joao\Desktop\GitProjects\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Business\obj\Debug\Loja.Instrumentos.Business.dll
 C:\Users\joao\Desktop\GitProjects\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Business\obj\Debug\Loja.Instrumentos.Business.pdb
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Business\bin\Debug\Loja.Instrumentos.Business.dll
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Business\bin\Debug\Loja.Instrumentos.Business.pdb
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Business\obj\Debug\Loja.Instrumentos.Business.csprojAssemblyReference.cache
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Business\obj\Debug\Loja.Instrumentos.Business.csproj.CoreCompileInputs.cache
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Business\obj\Debug\Loja.Instrumentos.Business.dll
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Business\obj\Debug\Loja.Instrumentos.Business.pdb

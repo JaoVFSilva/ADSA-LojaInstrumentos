@@ -22,3 +22,15 @@ C:\Users\joao\Desktop\GitProjects\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Lo
 C:\Users\joao\Desktop\GitProjects\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\obj\Debug\Loja.Instrumentos.Generic.Entity.csproj.CopyComplete
 C:\Users\joao\Desktop\GitProjects\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\obj\Debug\Loja.Instrumentos.Generic.Entity.dll
 C:\Users\joao\Desktop\GitProjects\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\obj\Debug\Loja.Instrumentos.Generic.Entity.pdb
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\bin\Debug\Loja.Instrumentos.Generic.Entity.dll.config
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\bin\Debug\Loja.Instrumentos.Generic.Entity.dll
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\bin\Debug\Loja.Instrumentos.Generic.Entity.pdb
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\bin\Debug\EntityFramework.dll
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\bin\Debug\EntityFramework.xml
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\obj\Debug\Loja.Instrumentos.Generic.Entity.csprojAssemblyReference.cache
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\obj\Debug\Loja.Instrumentos.Generic.Entity.csproj.CoreCompileInputs.cache
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\obj\Debug\Loja.Instrumentos.Generic.Entity.csproj.CopyComplete
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\obj\Debug\Loja.Instrumentos.Generic.Entity.dll
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Generic.Entity\obj\Debug\Loja.Instrumentos.Generic.Entity.pdb
