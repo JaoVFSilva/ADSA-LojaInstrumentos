@@ -12,7 +12,14 @@ namespace Loja.Instrumentos.Web.AutoMapper
     {
         protected override void Configure()
         {
-            Mapper.CreateMap<Particulars, ParticularsIndexViewModel>();
+            Mapper.CreateMap<Particulars, ParticularsIndexViewModel>()
+                .ForMember(p => p.Nome, opt => {
+
+                    opt.MapFrom(src =>
+                        string.Format("{0} {4}", src.Nome, src.Marca)
+                        );
+
+                });
             Mapper.CreateMap<Particulars, ParticularsViewModel>();
         }
     }

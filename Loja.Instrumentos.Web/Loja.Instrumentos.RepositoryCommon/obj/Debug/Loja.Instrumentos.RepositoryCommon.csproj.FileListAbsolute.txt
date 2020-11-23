@@ -1,0 +1,6 @@
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.RepositoryCommon\bin\Debug\Loja.Instrumentos.RepositoryCommon.dll
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.RepositoryCommon\bin\Debug\Loja.Instrumentos.RepositoryCommon.pdb
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.RepositoryCommon\obj\Debug\Loja.Instrumentos.RepositoryCommon.csprojAssemblyReference.cache
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.RepositoryCommon\obj\Debug\Loja.Instrumentos.RepositoryCommon.csproj.CoreCompileInputs.cache
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.RepositoryCommon\obj\Debug\Loja.Instrumentos.RepositoryCommon.dll
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.RepositoryCommon\obj\Debug\Loja.Instrumentos.RepositoryCommon.pdb

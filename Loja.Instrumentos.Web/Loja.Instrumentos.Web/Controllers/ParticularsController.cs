@@ -9,18 +9,21 @@ using System.Web.Mvc;
 using AutoMapper;
 using Loja.Instrumentos.Business;
 using Loja.Instrumentos.Data.Entity.Context;
+using Loja.Instrumentos.Repository.Entity;
+using Loja.Instrumentos.RepositoryCommon;
 using Loja.Instrumentos.Web.ViewModels.Particulars;
 
 namespace Loja.Instrumentos.Web.Controllers
-{ 
+{
     public class ParticularsController : Controller
     {
-        private InstrumentoDbContext db = new InstrumentoDbContext();
+        private IGenericRepository<Particulars, int>
+                repositoryParticulars = new ParticularsRepository(new InstrumentoDbContext());
 
         // GET: Particulars
         public ActionResult Index()
         {
-            return View(Mapper.Map<List<Particulars>, List<ParticularsIndexViewModel>>(db.Particulars.ToList()));
+            return View(Mapper.Map<List<Particulars>, List<ParticularsIndexViewModel>>(repositoryParticulars.Select()));
         }
 
         // GET: Particulars/Details/5
@@ -30,12 +33,12 @@ namespace Loja.Instrumentos.Web.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Particulars particulars = db.Particulars.Find(id);
+            Particulars particulars = repositoryParticulars.SelectForId(id.Value);
             if (particulars == null)
             {
                 return HttpNotFound();
             }
-            return View(particulars);
+            return View(Mapper.Map<Particulars, ParticularsIndexViewModel>(particulars));
         }
 
         // GET: Particulars/Create
@@ -54,8 +57,7 @@ namespace Loja.Instrumentos.Web.Controllers
             if (ModelState.IsValid)
             {
                 Particulars particulars = Mapper.Map<ParticularsViewModel, Particulars>(ViewModel);
-                db.Particulars.Add(particulars);
-                db.SaveChanges();
+                repositoryParticulars.Insert(particulars);
                 return RedirectToAction("Index");
             }
 
@@ -69,7 +71,7 @@ namespace Loja.Instrumentos.Web.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Particulars particulars = db.Particulars.Find(id);
+            Particulars particulars = repositoryParticulars.SelectForId(id.Value);
             if (particulars == null)
             {
                 return HttpNotFound();
@@ -87,8 +89,7 @@ namespace Loja.Instrumentos.Web.Controllers
             if (ModelState.IsValid)
             {
                 Particulars particulars = Mapper.Map<ParticularsViewModel, Particulars>(viewModel);
-                db.Entry(particulars).State = EntityState.Modified;
-                db.SaveChanges();
+                repositoryParticulars.Alter(particulars);
                 return RedirectToAction("Index");
             }
             return View(viewModel);
@@ -101,12 +102,12 @@ namespace Loja.Instrumentos.Web.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Particulars particulars = db.Particulars.Find(id);
+            Particulars particulars = repositoryParticulars.SelectForId(id.Value);
             if (particulars == null)
             {
                 return HttpNotFound();
             }
-            return View(particulars);
+            return View(Mapper.Map<Particulars, ParticularsIndexViewModel>(particulars));
         }
 
         // POST: Particulars/Delete/5
@@ -114,19 +115,9 @@ namespace Loja.Instrumentos.Web.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Particulars particulars = db.Particulars.Find(id);
-            db.Particulars.Remove(particulars);
-            db.SaveChanges();
+            repositoryParticulars.ExcludeForId(id);
             return RedirectToAction("Index");
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
-        }
     }
 }

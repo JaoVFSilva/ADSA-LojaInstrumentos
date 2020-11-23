@@ -1,0 +1,2 @@
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Repository.Commun.Entity\obj\Debug\Loja.Instrumentos.Repository.Commun.Entity.csprojAssemblyReference.cache
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Repository.Commun.Entity\obj\Debug\Loja.Instrumentos.Repository.Commun.Entity.csproj.CoreCompileInputs.cache

@@ -126,3 +126,5 @@ C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja
 C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Web\obj\Debug\Loja.Instrumentos.Web.csproj.CopyComplete
 C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Web\obj\Debug\Loja.Instrumentos.Web.dll
 C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Web\obj\Debug\Loja.Instrumentos.Web.pdb
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Web\bin\AutoMapper.dll
+C:\Users\João Vitor\Desktop\Projetos\Locadora.Filmes\DSIA-LojaInstrumentos\Loja.Instrumentos.Web\Loja.Instrumentos.Web\bin\AutoMapper.xml

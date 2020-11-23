@@ -126,11 +126,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Annotations\StringAttribute.cs" />
     <Compile Include="App_Start\AutoMapperConfig.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="AutoMapper\BusinessToViewModelProfile.cs" />
+    <Compile Include="AutoMapper\ViewModelToBusinessProfile.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ParticularsController.cs" />
     <Compile Include="Global.asax.cs">
